@@ -28,14 +28,14 @@ This is similar to `import` in Python.
 - `endl` - This means endline or move to the next or new line. It is similar to `\n`.
 - `<<` - In C++, the << operator is primarily used for outputting data to the standard output stream, such as the console. This operator is often associated with the std::cout object, which is used for outputting text and data.
 e.g.
-`#include <iostream>
+`#include <iostream>`
 
-int main() {
-    int x = 10;
-    std::cout << "The value of x is: " << x << std::endl;
-    return 0;
-}
-`
+`int main() {`
+    `int x = 10;`
+    `std::cout << "The value of x is: " << x << std::endl;`
+    `return 0;`
+`}`
+
 In this example:
 
 `std::cout` is the standard output stream object.
