@@ -61,6 +61,43 @@ This is convenient for shorter, simpler programs or for quick prototyping.
 
 *** Note: For small programs `cout` works well but for larger programs it is best to use `std::cout` to avoid naming conflicts. ***
 
+# Data types and Variables
+- `52` - Number - `Integer`.
+- `12.7` - Number - `Double or float`
+- `Z` - Letter - `Character`
+- `Computer` - Word - `String/ Sequence of Characters`.
+- `Male or Female` - Status of 2 things - `Boolean (True or False)`
+ - You can think of variables as boxes that hold a certain data or has the address location of the data it holds.
+
+ # Declaring Variables in C++
+ - `int age = 55`.
+    -- `int`: type of variable.
+    -- `age`: name of the variable.
+    -- ` =` : assignment operator.
+    -- `55`: value to be added in memory.
+- We can declare values and assign them to values later.
+
+# Variable Initialization in C++
+- `int age` : Uninitialized. Try to avoid this as much as possible.
+- `int age2` : This is the C-style syntax and is more popular.
+- `int age3 (52)` : Constructor Initialization.
+- `int age4 {52}`: Modern initialization.
+
+# Min and Max Values to store data
+- `int`: -217483648 to 2147483647.
+- `char`: -127 to 127.
+- `bool`: 0 to 1.
+# Reading variables
+- To read we use `cin>>`, which stands for console input.
+- Steps to read the variable:
+    -- Declare the variable.
+    -- Read it.
+        - Wait for user input from the console.
+
+
+- 
+
+
 
 
 
