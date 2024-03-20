@@ -90,14 +90,20 @@ This is convenient for shorter, simpler programs or for quick prototyping.
 # Reading variables
 - To read we use `cin>>`, which stands for console input.
 - Steps to read the variable:
-    -- Declare the variable.
-    -- Read it.
+    - Declare the variable.
+    - Read it.
         - Wait for user input from the console.
+# Constant Values
+- These are immutable values or values that cannot be changed later in your code. It uses the keyword `const`.
 
+# Why do we need `const` values?
+- To prevent users using the software from changing the logic in the code or other software engineer form touching certain implementations in our code.
 
-- 
+# Prefix and Postfix Operators
+- `++x` - Prefix - Increment x first then assign its value to right side.
+- `x++` - Postfix - Assign it to the right side, then increment it.
 
-
-
-
+# Assignment Operator
+- `=` - It is used to assign a value to a variable.
+- `+= -= *= /=` - These are called the compound assignment. This compares the assigmnent operator with some binary operator.
 
